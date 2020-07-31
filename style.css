@@ -2,6 +2,11 @@ body {
     background-image: linear-gradient(90deg, salmon, rgb(241, 81, 75));
 }
 
+h1{
+    margin-top: 40px;
+    padding-bottom: 2px;
+}
+
 #container {
     /* width: 50vh;
     height: 100vh;  */
@@ -13,7 +18,7 @@ body {
     background-color: #252525;
     margin: 0 auto;
     position: relative;
-    top: 100px;
+    top: 40px;
     border-radius: 10px;
     box-shadow: 0px 0px 20px #252525;
 }

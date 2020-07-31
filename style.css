@@ -5,6 +5,7 @@ body {
 h1{
     margin-top: 40px;
     padding-bottom: 2px;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 #container {
@@ -19,8 +20,9 @@ h1{
     margin: 0 auto;
     position: relative;
     top: 40px;
-    border-radius: 10px;
-    box-shadow: 0px 0px 20px #252525;
+    border-radius: 20px;
+    box-shadow: 0 18px 16px 2px #252525;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 #result {
@@ -40,8 +42,10 @@ h1{
     text-align: right;
     height: 60px;
     margin: 20px 20px;
-    font-size: 30px;
+    font-size: 40px;
     color: aliceblue;
+    text-shadow: 0 0 3px aliceblue;
+    overflow: hidden;
 }
 
 #keyboard {
@@ -59,6 +63,7 @@ h1{
     background-color: #a80038;
     font-weight: bold;
     font-size: 15px;
+    text-shadow: 0 0 3px aliceblue;
 }
 
 .empty{
@@ -71,6 +76,7 @@ h1{
 
 .operator{
     background-color: #fd0054e1;
+    font-size: 16px;
 }
 
 .equals{
@@ -84,4 +90,8 @@ h1{
 
 .operator:focus, .number:focus{
     outline: 0;
+}
+
+.operator:hover, .number:hover{
+    box-shadow: 0px 0px 10px #fd0054;
 }

@@ -1,5 +1,5 @@
 body {
-    background-color: #fbf9fa;
+    background-image: linear-gradient(90deg, salmon, rgb(241, 81, 75));
 }
 
 #container {
@@ -15,7 +15,7 @@ body {
     position: relative;
     top: 100px;
     border-radius: 10px;
-    box-shadow: 0px 0px 10px #252525;
+    box-shadow: 0px 0px 20px #252525;
 }
 
 #result {
@@ -65,7 +65,7 @@ body {
 }
 
 .operator{
-    background-color: #f23557;
+    background-color: #fd0054e1;
 }
 
 .equals{
